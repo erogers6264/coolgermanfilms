@@ -21,10 +21,6 @@ favorite movies.
 ## Bugs and feature requests
 Have a bug or a feature request? Please e-mail me at erogers6264@gmail.com
 
-## Versioning
-Version 0.1
-Future versions will be featured on GitHub when I create an account
-
 ## Creators
 Ethan Rogers
 Udacity
