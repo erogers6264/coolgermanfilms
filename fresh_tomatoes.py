@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Cool German Films</title>
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
@@ -38,9 +38,9 @@ main_page_head = '''
             font-family: 'Gochi Hand', cursive;
         }
         #trailer .modal-dialog {
-            margin-top: 200px;
-            width: 640px;
-            height: 480px;
+            margin-top: 133px;
+            width: 960px;
+            height: 720px;
         }
         .hanging-close {
             position: absolute;
@@ -142,7 +142,7 @@ movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
-    <h3>IMDB Rating: {imdb_score}</h3>
+    <h3>IMDB Score: <em>{imdb_score}</em></h3>
 </div>
 '''
 
@@ -164,8 +164,7 @@ def create_movie_tiles_content(movies):
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
-            imdb_score=movie.imdb_score
-        )
+            imdb_score=movie.imdb_score)
     return content
 
 
