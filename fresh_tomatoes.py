@@ -10,6 +10,7 @@ main_page_head = '''
 <head>
     <meta charset="utf-8">
     <title>Cool German Films</title>
+    <link rel="shortcut icon" href="http://www.linuxmint.com/img/flags/9.gif" />
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
@@ -124,7 +125,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Ethan's Favorite Movies</a>
+            <a class="navbar-brand" href="#">Cool German Films</a>
           </div>
         </div>
       </div>

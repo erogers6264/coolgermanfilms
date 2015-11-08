@@ -18,26 +18,26 @@ gegendiewand = media.Movie(
 	"https://youtu.be/OoEskub6VdY",
 	8.0)
 
-shortbus = media.Movie(
-	"Shortbus",
-	"A story of multiple sexual journeys",
-	"http://www.impawards.com/2006/posters/shortbus_ver3_xlg.jpg",
-	"https://youtu.be/H8A1dwEhSMY",
-	6.6)
-
-grandbudapest = media.Movie(
-	"The Grand Budapest Hotel",
-	"A story of history, passion, and marvel",
-	"http://www.grandbudapesthotel.com/images/gbhmulti3.jpg",
-	"https://youtu.be/1Fg5iWmQjwk",
-	8.1)
-
-coraline = media.Movie(
-	"Coraline",
-	"A deeper movie than one would first assume",
-	"http://www.movie-poster-artwork-finder.com/posters/coraline-poster-artwork-dakota-fanning-teri-hatcher-jennifer-saunders.jpg",  # noqa
-	"https://youtu.be/LO3n67BQvh0",
+lola = media.Movie(
+	"Lola",
+	"Fascinating representations of capitalism in early 20th century Germany",
+	"https://www.movieposter.com/posters/archive/main/108/MPW-54276",
+	"https://youtu.be/EbymV9kqSrw",
 	7.7)
+
+marriage = media.Movie(
+	"The Marriage of Maria Braun",
+	"A woman's family life is challenged during the post-WWII era",
+	"https://upload.wikimedia.org/wikipedia/en/6/6b/Original-poster-marriage-of-maria-braun.jpg", # noqa
+	"https://youtu.be/iFeEa5ijFLU",
+	7.9)
+
+imjuli = media.Movie(
+	"Im Juli",
+	"Eine Liebesgeschichte, lustig, im Sommer",
+	"http://rymimg.com/lk/f/l/4cefe4ddaa9e035dbf737610ca4caab0/1007166.jpg",  # noqa
+	"https://youtu.be/S5PzL-M3aWM",
+	7.8)
 
 metropolis = media.Movie(
 	"Metropolis",
@@ -46,12 +46,12 @@ metropolis = media.Movie(
 	"https://youtu.be/ZSExdX0tds4",
 	8.3)
 
-fckyougoethe = media.Movie(
-	"Fack ju Göhte",
-	"I have not seen it but I heard it's good",
-	"http://i.jeded.com/i/fack-ju-ghte-fck-you-goethe.24286.jpg",
-	"https://youtu.be/8H_gk-4bX6o",
-	7.1)
+keinohrhasen = media.Movie(
+	"Keinohrhasen",
+	"Ein arroganter Typ und eine pikante Frau",
+	"https://upload.wikimedia.org/wikipedia/az/c/c8/Keinohrhasen-poster.jpg",
+	"https://youtu.be/2GuO_M7gEgc",
+	6.7)
 
 liebeingedanken = media.Movie(
 	"Was nützt die Liebe in Gedanken",
@@ -61,8 +61,8 @@ liebeingedanken = media.Movie(
 	7.1)
 
 # Arrange instances of Movie into a list.
-movies = [goodbyelenin, gegendiewand, shortbus, grandbudapest,
-		 coraline, metropolis, fckyougoethe, liebeingedanken]
+movies = [goodbyelenin, gegendiewand, lola, marriage, imjuli,
+		metropolis, keinohrhasen, liebeingedanken]
 
 # Pass the list into the function in provided module to generate the HTML
 # file & open.
