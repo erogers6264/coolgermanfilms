@@ -18,21 +18,21 @@ gegendiewand = media.Movie(
 	"https://youtu.be/OoEskub6VdY",
 	8.0)
 
-shortbus = media.Movie(
+lola = media.Movie(
 	"Shortbus",
 	"A story of multiple sexual journeys",
 	"http://www.impawards.com/2006/posters/shortbus_ver3_xlg.jpg",
 	"https://youtu.be/H8A1dwEhSMY",
 	6.6)
 
-grandbudapest = media.Movie(
+ausderferne = media.Movie(
 	"The Grand Budapest Hotel",
 	"A story of history, passion, and marvel",
 	"http://www.grandbudapesthotel.com/images/gbhmulti3.jpg",
 	"https://youtu.be/1Fg5iWmQjwk",
 	8.1)
 
-coraline = media.Movie(
+imjuli = media.Movie(
 	"Coraline",
 	"A deeper movie than one would first assume",
 	"http://www.movie-poster-artwork-finder.com/posters/coraline-poster-artwork-dakota-fanning-teri-hatcher-jennifer-saunders.jpg",  # noqa
@@ -46,7 +46,7 @@ metropolis = media.Movie(
 	"https://youtu.be/ZSExdX0tds4",
 	8.3)
 
-fckyougoethe = media.Movie(
+keinohrhasen = media.Movie(
 	"Fack ju Göhte",
 	"I have not seen it but I heard it's good",
 	"http://i.jeded.com/i/fack-ju-ghte-fck-you-goethe.24286.jpg",
@@ -61,8 +61,8 @@ liebeingedanken = media.Movie(
 	7.1)
 
 # Arrange instances of Movie into a list.
-movies = [goodbyelenin, gegendiewand, shortbus, grandbudapest,
-		 coraline, metropolis, fckyougoethe, liebeingedanken]
+movies = [goodbyelenin, gegendiewand, lola, ausderferne, imjuli,
+		metropolis, keinohrhasen, liebeingedanken]
 
 # Pass the list into the function in provided module to generate the HTML
 # file & open.
