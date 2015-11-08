@@ -19,22 +19,22 @@ gegendiewand = media.Movie(
 	8.0)
 
 lola = media.Movie(
-	"Shortbus",
-	"A story of multiple sexual journeys",
+	"Lola",
+	"Fascinating representations of capitalism in early 20th century Germany",
 	"http://www.impawards.com/2006/posters/shortbus_ver3_xlg.jpg",
 	"https://youtu.be/H8A1dwEhSMY",
 	6.6)
 
 ausderferne = media.Movie(
-	"The Grand Budapest Hotel",
-	"A story of history, passion, and marvel",
+	"Aus der Ferne",
+	"An experimentalesque film depicting cultural crossovers in Germany",
 	"http://www.grandbudapesthotel.com/images/gbhmulti3.jpg",
 	"https://youtu.be/1Fg5iWmQjwk",
 	8.1)
 
 imjuli = media.Movie(
-	"Coraline",
-	"A deeper movie than one would first assume",
+	"Im Juli",
+	"Eine Liebesgeschichte, lustig, im Sommer",
 	"http://www.movie-poster-artwork-finder.com/posters/coraline-poster-artwork-dakota-fanning-teri-hatcher-jennifer-saunders.jpg",  # noqa
 	"https://youtu.be/LO3n67BQvh0",
 	7.7)
@@ -47,8 +47,8 @@ metropolis = media.Movie(
 	8.3)
 
 keinohrhasen = media.Movie(
-	"Fack ju Göhte",
-	"I have not seen it but I heard it's good",
+	"Keinohrhasen",
+	"Ein arroganter Typ und eine pikante Frau",
 	"http://i.jeded.com/i/fack-ju-ghte-fck-you-goethe.24286.jpg",
 	"https://youtu.be/8H_gk-4bX6o",
 	7.1)
