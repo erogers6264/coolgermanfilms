@@ -21,23 +21,23 @@ gegendiewand = media.Movie(
 lola = media.Movie(
 	"Lola",
 	"Fascinating representations of capitalism in early 20th century Germany",
-	"LINK",
-	"LINK",
-	6.6)
+	"https://www.movieposter.com/posters/archive/main/108/MPW-54276",
+	"https://youtu.be/EbymV9kqSrw",
+	7.7)
 
 ausderferne = media.Movie(
-	"Aus der Ferne",
-	"An experimentalesque film depicting cultural crossovers in Germany",
-	"LINK",
-	"LINK",
-	8.1)
+	"The Marriage of Maria Braun",
+	"A woman's family life is challenged during the post-WWII era",
+	"https://upload.wikimedia.org/wikipedia/en/6/6b/Original-poster-marriage-of-maria-braun.jpg", # noqa
+	"https://youtu.be/iFeEa5ijFLU",
+	7.9)
 
 imjuli = media.Movie(
 	"Im Juli",
 	"Eine Liebesgeschichte, lustig, im Sommer",
-	"LINK",  # noqa
-	"LINK",
-	7.7)
+	"http://rymimg.com/lk/f/l/4cefe4ddaa9e035dbf737610ca4caab0/1007166.jpg",  # noqa
+	"https://youtu.be/S5PzL-M3aWM",
+	7.8)
 
 metropolis = media.Movie(
 	"Metropolis",
@@ -49,9 +49,9 @@ metropolis = media.Movie(
 keinohrhasen = media.Movie(
 	"Keinohrhasen",
 	"Ein arroganter Typ und eine pikante Frau",
-	"LINK",
-	"LINK",
-	7.1)
+	"https://upload.wikimedia.org/wikipedia/az/c/c8/Keinohrhasen-poster.jpg",
+	"https://youtu.be/2GuO_M7gEgc",
+	6.7)
 
 liebeingedanken = media.Movie(
 	"Was nützt die Liebe in Gedanken",
