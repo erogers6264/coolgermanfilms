@@ -1,7 +1,7 @@
 # Movie Trailer Website
 
 This website is dynamically created with Python, using data from Python classes
-I created. It displays the trailers, poster art, & IMDB rating of some of my
+I created. It displays the trailers, posters, & IMDB ratings of some of my
 favorite German movies.
 
 ## Table of contents
