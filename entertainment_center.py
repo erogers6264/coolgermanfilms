@@ -25,7 +25,7 @@ lola = media.Movie(
 	"https://youtu.be/EbymV9kqSrw",
 	7.7)
 
-ausderferne = media.Movie(
+marriage = media.Movie(
 	"The Marriage of Maria Braun",
 	"A woman's family life is challenged during the post-WWII era",
 	"https://upload.wikimedia.org/wikipedia/en/6/6b/Original-poster-marriage-of-maria-braun.jpg", # noqa
@@ -61,7 +61,7 @@ liebeingedanken = media.Movie(
 	7.1)
 
 # Arrange instances of Movie into a list.
-movies = [goodbyelenin, gegendiewand, lola, ausderferne, imjuli,
+movies = [goodbyelenin, gegendiewand, lola, marriage, imjuli,
 		metropolis, keinohrhasen, liebeingedanken]
 
 # Pass the list into the function in provided module to generate the HTML
